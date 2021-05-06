@@ -2,16 +2,16 @@
 
 
 html {
-  box-sizing: border-box;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  /* box-sizing: border-box; */
+  /* -ms-text-size-adjust: 100%; */
+  /* -webkit-text-size-adjust: 100%; */
   /* overflow-x: hidden; */
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -25,11 +25,12 @@ body {
 
 a {
   color: #f3a732;
+  text-decoration: none;
 }
 
 .logo {
   letter-spacing: 4px;
-  text-decoration: none;
+  text-decoration: wavy;
 
   font-size: 32px;
 }
@@ -47,8 +48,8 @@ h3 {
 }
 
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
   display: inline-block;
   line-height: 200px;
@@ -83,7 +84,7 @@ h3 {
 
 
 
-/* ESSAI 2  */
+/* NAVBAR  */
 
 
 
@@ -95,6 +96,7 @@ h3 {
   width: 100%;
   background-color: #ffffff;
   position: fixed;
+  text-decoration: none;
 }
 
 .nav>.nav-header {
@@ -103,9 +105,12 @@ h3 {
 
 .nav>.nav-header>.nav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 30px;
   padding: 10px 10px 10px 10px;
-  text-decoration: none;
+}
+
+.nav>.nav-header>.nav-title>a {
+  color: black;
 }
 
 .nav>.nav-btn {
@@ -133,7 +138,9 @@ h3 {
   display: none;
 }
 
-@media (max-width:800px) {
+@media (max-width:6 00px) {
+
+  
   .nav>.nav-btn {
     display: inline-block;
     position: absolute;
