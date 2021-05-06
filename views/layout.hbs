@@ -10,12 +10,31 @@
 <body>
 
 
+  {{!-- NAVBAR W3 --}}
+
+
+  <div class="top">
+    <div class="bar white padding card" style="letter-spacing:4px;">
+      <a href="#home" class="bar-item button">CLEMENToehafg ouyg INE PARANT<span class="dots dot1"></span>
+          <span class="dot dot2"></span>
+          <span class="dot dot3"></span></a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="right hide-small">
+        <a href="#about" class="bar-item button">A propos</a>
+        <a href="#menu" class="bar-item button">Articles</a>
+        <a href="#contact" class="bar-item button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+
+  {{!-- NAVBAR 2 --}}
 
   <div class="nav">
 
     <div class="nav-header">
       <div class="nav-title">
-        <a href="#home">CLEMENTINE PARANT <span class="dot dot1"></span>
+        <a href="#home">CLEMENTINE PARANT <span class="dots dot1"></span>
           <span class="dot dot2"></span>
           <span class="dot dot3"></span></a>
       </div>
@@ -28,16 +47,16 @@
       </label>
     </div>
 
-    <div class="nav-links">
+    <div class="nav-links hide-small">
       <a href="#about">A propos</a>
       <a href="#articles">Articles</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
 
-<div class="page-content">
-  {{{body}}}
-</div>
+  <div class="page-content">
+    {{{body}}}
+  </div>
 </body>
 
 </html>
